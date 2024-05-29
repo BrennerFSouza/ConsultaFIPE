@@ -72,8 +72,7 @@ public class Main {
                 System.out.println("""
                         Digite parte da marca que deseja filtrar
                         Ou
-                        Aperte Enter para continuar
-                        """);
+                        Aperte Enter para continuar""");
                 filter = reader.nextLine();
 
                 if (filter != "") {
@@ -100,8 +99,7 @@ public class Main {
                 System.out.println("""
                         Digite parte da modelo que deseja filtrar
                         Ou
-                        Aperte Enter para continuar
-                        """);
+                        Aperte Enter para continuar""");
                 filter = reader.nextLine();
 
                 if (filter != "") {
@@ -134,6 +132,7 @@ public class Main {
                 }
                 System.out.println("\nTodos os veiculos com o valor por ano: \n");
                 vehicleList.forEach(System.out::println);
+                System.out.println("Aperte Enter para retornar ao Menu");
                 reader.nextLine();
             }
         }
